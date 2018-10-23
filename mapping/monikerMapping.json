@@ -4,8 +4,6 @@
         "conceptualTocUrl":"/powershell/partner-center/toc.json",
         "referenceTocUrl":"/powershell/module/partner-center/toc.json",
         "packageRoot":"partnercenterps-1.5.1810.8",
-        "modules":{
-            "Partner-Center":{}
-        }
+        "serviceMap":"mapping/groupMapping-1.5.1810.8.json"
     }
 }
