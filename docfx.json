@@ -6,7 +6,7 @@
                     "toc.yml"
                 ],
                 "src": "partnercenterps-1.5.1810.8",
-                "version": "partnercenterps-1.5.1810.8",
+                "version": "partnercenterps-1.5",
                 "dest": "module/partner-center"
             },
             {
@@ -14,7 +14,7 @@
                     "**/*.md"
                 ],
                 "src": "partnercenterps-1.5.1810.8",
-                "version": "partnercenterps-1.5.1810.8",
+                "version": "partnercenterps-1.5",
                 "exclude": [
                     "docs-conceptual/**"
                 ],
@@ -26,12 +26,12 @@
                     "**/*.md"
                 ],
                 "src": "docs-conceptual/partnercenterps-1.5.1810.8",
-                "version": "partnercenterps-1.5.1810.8",
+                "version": "partnercenterps-1.5",
                 "dest": "partner-center"
             }
         ],
         "versions": {
-            "partnercenterps-1.5.1810.8": {
+            "partnercenterps-1.5": {
                 "dest": "partnercenterps-1.5.1810.8"
             }
         },

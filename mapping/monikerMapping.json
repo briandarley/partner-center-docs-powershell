@@ -1,0 +1,11 @@
+{
+    "partnercenterps-1.5.1810.8":{
+        "conceptualToc":"docs-conceptual/toc.yml",
+        "conceptualTocUrl":"/powershell/partner-center/toc.json",
+        "referenceTocUrl":"/powershell/module/partner-center/toc.json",
+        "packageRoot":"partnercenterps-1.5.1810.8",
+        "modules":{
+            "Partner-Center":{}
+        }
+    }
+}
