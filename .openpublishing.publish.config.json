@@ -2,7 +2,7 @@
   "docsets_to_publish": [
     {
       "docset_name": "partnercenterps",
-      "build_source_folder": "partnercenterps",
+      "build_source_folder": ".",
       "build_output_subfolder": "partnercenterps",
       "locale": "en-us",
       "monikers": [],
