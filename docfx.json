@@ -3,14 +3,6 @@
         "content": [
             {
                 "files": [
-                    "toc.yml"
-                ],
-                "src": "partnercenterps-1.5.1810.8",
-                "version": "partnercenterps-1.5",
-                "dest": "module/partnercenter"
-            },
-            {
-                "files": [
                     "**/*.md",
                     "**/*.yml"
                 ],
@@ -28,7 +20,7 @@
                 ],
                 "src": "docs-conceptual/partnercenterps-1.5.1810.8",
                 "version": "partnercenterps-1.5",
-                "dest": "partner-center/partenercenter"
+                "dest": "partnercenter"
             }
         ],
         "versions": {
@@ -60,7 +52,6 @@
         "globalMetadata": {
             "showPowerShellPicker": "true",
             "apiPlatform": "powershell",
-            "ms.product":"powershell",
             "breadcrumb_path": "/powershell/bread/toc.json",
             "ms.devlang": "powershell",
             "feedback_system": "GitHub",
