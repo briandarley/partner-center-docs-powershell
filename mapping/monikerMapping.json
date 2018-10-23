@@ -1,9 +1,9 @@
 {
     "partnercenterps-1.5.1810.8":{
         "serviceMap":"mapping/groupMapping-1.5.1810.8.json",
-        "conceptualToc":"docs-conceptual/toc.yml",
+        "packageRoot":"partnercenterps-1.5.1810.8",
+        "conceptualToc":"docs-conceptual/partnercenterps-1.5.1810.8/toc.yml",
         "conceptualTocUrl":"/powershell/partnercenter/toc.json",
-        "referenceTocUrl":"/powershell/module/partnercenter/toc.json",
-        "packageRoot":"partnercenterps-1.5.1810.8"      
+        "referenceTocUrl":"/powershell/module/partnercenter/toc.json"      
     }
 }
