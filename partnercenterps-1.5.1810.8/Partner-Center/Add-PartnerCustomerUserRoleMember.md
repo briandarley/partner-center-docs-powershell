@@ -1,6 +1,5 @@
 ---
 external help file: Microsoft.Store.PartnerCenter.PowerShell.dll-Help.xml
-Module Name: PartnerCenter
 online version:
 schema: 2.0.0
 ---
