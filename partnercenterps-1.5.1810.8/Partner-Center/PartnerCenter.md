@@ -1,5 +1,5 @@
 ---
-Module Name: PartnerCenter
+Module Name: Partner-Center
 Module Guid: 70cb9a9e-1491-403a-8a2f-63e1afe7dfee
 Download Help Link: none
 Help Version: 1.0
