@@ -11,7 +11,7 @@
                 "exclude": [
                     "docs-conceptual/**"
                 ],
-                "dest": "module"
+                "dest": "module/partnercenter"
             },
             {
                 "files": [
@@ -20,7 +20,7 @@
                 ],
                 "src": "docs-conceptual/partnercenterps-1.5.1810.8",
                 "version": "partnercenterps-1.5",
-                "dest": "partnercenter"
+                "dest": "partnercenter/"
             }
         ],
         "versions": {
