@@ -17,3 +17,4 @@ If you have an earlier version of the Partner Center PowerShell modules installe
 ```powershell
 # Install the latest version of the Partner Center PowerShell module
 Update-Module -Name PartnerCenter
+```
