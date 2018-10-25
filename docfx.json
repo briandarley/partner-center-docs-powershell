@@ -6,7 +6,7 @@
                     "**/*.md",
                     "**/*.yml"
                 ],
-                "src": "partnercenterps-1.5.1810.8",
+                "src": "partnercenterps-1.5",
                 "version": "partnercenterps-1.5",
                 "exclude": [
                     "docs-conceptual/**"
@@ -18,7 +18,7 @@
                     "**/*.yml",
                     "**/*.md"
                 ],
-                "src": "docs-conceptual/partnercenterps-1.5.1810.8",
+                "src": "docs-conceptual/partnercenterps-1.5",
                 "version": "partnercenterps-1.5",
                 "dest": "partnercenter"
             },
@@ -33,7 +33,7 @@
         ],
         "versions": {
             "partnercenterps-1.5": {
-                "dest": "partnercenterps-1.5.1810.8"
+                "dest": "partnercenterps-1.5"
             }
         },
         "filemetadata": {
