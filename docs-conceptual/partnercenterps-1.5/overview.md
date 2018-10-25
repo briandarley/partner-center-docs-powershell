@@ -1,10 +1,34 @@
+---
+title:  Partner Center PowerShell
+description: Overview for the Partner Center PowerShell module.
+services: partner-center
+documentationcenter: ''
+author: iswillia
+manager: lesliep
+editor: ''
+
+ms.service: partner-center
+ms.workload: partner-center
+ms.tgt_pltfrm: na
+ms.devlang: powershell
+ms.custom: posh-docs-conceptual
+ms.topic: hero-article
+ms.date: 10/25/2018
+ms.author: iswillia
+
+Module Name: PartnerCenter
+Module Guid: 70cb9a9e-1491-403a-8a2f-63e1afe7dfee
+ms.custom: iamfeature=PowerShell
+---
+
 # Partner Center PowerShell
 
 The Partner Center PowerShell module contains a set of PowerShell commands for administrators and developers to manage Cloud Solution Provider program resources. Using this module you can perform tasks such as customer and subscription life cycle management, confirm customer acceptance of the Microsoft Cloud Agreement, and purchase reserved instances.
 
-These are the cmdlets in the Partner Center PowerShell module. 
+## Available cmdlets
 
-## PartnerCenter Cmdlets
+These are the cmdlets in the Partner Center PowerShell module.
+
 ### [Add-PartnerCustomerCartLineItem](../../partnercenterps-1.5/Partner-Center/Add-PartnerCustomerCartLineItem.md)
 Adds a new line item to the specified cart.
 

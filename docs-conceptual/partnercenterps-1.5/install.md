@@ -1,3 +1,22 @@
+---
+title:  Partner Center PowerShell
+description: How to install the Partner Center PowerShell module.
+services: partner-center
+documentationcenter: ''
+author: iswillia
+manager: lesliep
+editor: ''
+
+ms.service: partner-center
+ms.workload: partner-center
+ms.tgt_pltfrm: na
+ms.devlang: powershell
+ms.custom: posh-docs-conceptual
+ms.topic: hero-article
+ms.date: 10/25/2018
+ms.author: iswillia
+---
+
 # Partner Center PowerShell
 
 The Partner Center PowerShell module contains a set of PowerShell commands for administrators and developers to manage Cloud Solution Provider program resources. Using this module you can perform tasks such as customer and subscription life cycle management, confirm customer acceptance of the Microsoft Cloud Agreement, and purchase reserved instances.
