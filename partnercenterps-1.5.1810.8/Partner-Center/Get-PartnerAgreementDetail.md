@@ -11,7 +11,7 @@ Gets the agreement metadata for the Microsoft Cloud Agreement.
 
 ## SYNTAX
 
-```
+```powershell
 Get-PartnerAgreementDetail [<CommonParameters>]
 ```
 

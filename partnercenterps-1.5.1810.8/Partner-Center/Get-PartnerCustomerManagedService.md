@@ -12,7 +12,7 @@ Gets the managed services for a customer.
 
 ## SYNTAX
 
-```
+```powershell
 Get-PartnerCustomerManagedService [-CustomerId] <String> [-ManagedServiceId <String>] [<CommonParameters>]
 ```
 

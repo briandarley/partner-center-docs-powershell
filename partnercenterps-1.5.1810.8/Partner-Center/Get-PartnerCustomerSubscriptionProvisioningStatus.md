@@ -12,7 +12,7 @@ Gets the provisioning status for the specified subscription.
 
 ## SYNTAX
 
-```
+```powershell
 Get-PartnerCustomerSubscriptionProvisioningStatus -CustomerId <String> -SubscriptionId <String>
  [<CommonParameters>]
 ```

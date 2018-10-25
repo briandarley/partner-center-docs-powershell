@@ -12,7 +12,7 @@ Gets confirmation of customer acceptance provided previously.
 
 ## SYNTAX
 
-```
+```powershell
 Get-PartnerCustomerAgreement -CustomerId <String> [<CommonParameters>]
 ```
 

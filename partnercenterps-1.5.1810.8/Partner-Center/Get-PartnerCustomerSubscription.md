@@ -13,29 +13,29 @@ Gets a list or a single customer subscription.
 ## SYNTAX
 
 ### Customer (Default)
-```
+```powershell
 Get-PartnerCustomerSubscription [<CommonParameters>]
 ```
 
 ### ByCustomerObject
-```
+```powershell
 Get-PartnerCustomerSubscription -InputObject <PSCustomer> [-OrderId <String>] [-MpnId <String>]
  [-SubscriptionId <String>] [<CommonParameters>]
 ```
 
 ### ByCustomer
-```
+```powershell
 Get-PartnerCustomerSubscription -CustomerId <String> [-OrderId <String>] [-MpnId <String>]
  [-SubscriptionId <String>] [<CommonParameters>]
 ```
 
 ### ByOrder
-```
+```powershell
 Get-PartnerCustomerSubscription -CustomerId <String> -OrderId <String> [<CommonParameters>]
 ```
 
 ### ByPartner
-```
+```powershell
 Get-PartnerCustomerSubscription -CustomerId <String> -MpnId <String> [<CommonParameters>]
 ```
 

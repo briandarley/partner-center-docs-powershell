@@ -13,7 +13,7 @@ Updates a customer's billing profile, including the address associated with the 
 ## SYNTAX
 
 ### Customer (Default)
-```
+```powershell
 Set-PartnerCustomer [-BillingAddressLine1 <String>] [-BillingAddressLine2 <String>]
  [-BillingAddressCity <String>] [-BillingAddressCountry <String>] [-BillingAddressPhoneNumber <String>]
  [-BillingAddressPostalCode <String>] [-BillingAddressRegion <String>] [-BillingAddressState <String>]
@@ -21,7 +21,7 @@ Set-PartnerCustomer [-BillingAddressLine1 <String>] [-BillingAddressLine2 <Strin
 ```
 
 ### CustomerObject
-```
+```powershell
 Set-PartnerCustomer -InputObject <PSCustomer> [-BillingAddressLine1 <String>] [-BillingAddressLine2 <String>]
  [-BillingAddressCity <String>] [-BillingAddressCountry <String>] [-BillingAddressPhoneNumber <String>]
  [-BillingAddressPostalCode <String>] [-BillingAddressRegion <String>] [-BillingAddressState <String>]

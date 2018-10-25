@@ -12,7 +12,7 @@ Checks the inventory for the specified product.
 
 ## SYNTAX
 
-```
+```powershell
 Get-PartnerProductInventory [-CountryCode <String>] -ProductId <String> [-SkuId <String>]
  [-Variables <Hashtable>] [<CommonParameters>]
 ```

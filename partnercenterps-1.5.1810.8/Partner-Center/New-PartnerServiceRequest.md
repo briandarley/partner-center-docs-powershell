@@ -12,7 +12,7 @@ Creates a service request at the partner level.
 
 ## SYNTAX
 
-```
+```powershell
 New-PartnerServiceRequest [-AgentLocale <String>] -Description <String> -Severity <ServiceRequestSeverity>
  -SupportTopicId <String> -Title <String> [-WhatIf] [-Confirm] [<CommonParameters>]
 ```

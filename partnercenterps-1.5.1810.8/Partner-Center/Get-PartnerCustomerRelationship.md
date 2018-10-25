@@ -12,7 +12,7 @@ Gets all the partner relationships associated to the customer based on the logge
 
 ## SYNTAX
 
-```
+```powershell
 Get-PartnerCustomerRelationship -CustomerId <String> [<CommonParameters>]
 ```
 

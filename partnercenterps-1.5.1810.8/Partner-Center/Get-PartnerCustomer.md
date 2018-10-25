@@ -12,7 +12,7 @@ Gets a specific customer or a list of available customers.
 
 ## SYNTAX
 
-```
+```powershell
 Get-PartnerCustomer [[-CustomerId] <String>] [<CommonParameters>]
 ```
 

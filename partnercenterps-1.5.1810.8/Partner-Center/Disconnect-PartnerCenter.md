@@ -11,7 +11,7 @@ Disconnects the current session from Partner Center.
 
 ## SYNTAX
 
-```
+```powershell
 Disconnect-PartnerCenter [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 

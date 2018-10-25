@@ -12,7 +12,7 @@ Gets audit records from Partner Center.
 
 ## SYNTAX
 
-```
+```powershell
 Get-PartnerAuditRecord [-EndDate <DateTime>] [-StartDate <DateTime>] [<CommonParameters>]
 ```
 

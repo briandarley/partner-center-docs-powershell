@@ -12,7 +12,7 @@ Gets the partner MPN from Partner Center.
 
 ## SYNTAX
 
-```
+```powershell
 Get-PartnerMpnProfile [-MpnId <String>] [<CommonParameters>]
 ```
 

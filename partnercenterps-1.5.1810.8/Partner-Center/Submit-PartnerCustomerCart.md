@@ -12,7 +12,7 @@ Checks out the specified cart.
 
 ## SYNTAX
 
-```
+```powershell
 Submit-PartnerCustomerCart -CartId <String> -CustomerId <String> [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 

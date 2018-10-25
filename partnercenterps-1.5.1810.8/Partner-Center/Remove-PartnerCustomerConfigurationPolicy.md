@@ -13,7 +13,7 @@ Removes the specified configuration policy.
 
 ## SYNTAX
 
-```
+```powershell
 Remove-PartnerCustomerConfigurationPolicy [-CustomerId] <String> -PolicyId <String> [<CommonParameters>]
 ```
 

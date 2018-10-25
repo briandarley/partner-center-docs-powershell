@@ -12,7 +12,7 @@ Gets a list of directory roles for a customer.
 
 ## SYNTAX
 
-```
+```powershell
 Get-PartnerCustomerUserRole -CustomerId <String> [-UserId <String>] [<CommonParameters>]
 ```
 

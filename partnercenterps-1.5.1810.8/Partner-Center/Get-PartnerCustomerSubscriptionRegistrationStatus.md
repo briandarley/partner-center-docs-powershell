@@ -12,7 +12,7 @@ Gets the subscription registration status.
 
 ## SYNTAX
 
-```
+```powershell
 Get-PartnerCustomerSubscriptionRegistrationStatus -CustomerId <String> -SubscriptionId <String>
  [<CommonParameters>]
 ```

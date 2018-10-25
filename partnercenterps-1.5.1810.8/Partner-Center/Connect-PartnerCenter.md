@@ -12,19 +12,19 @@ Connect to Partner Center with an authenticated account for use with cmdlet requ
 ## SYNTAX
 
 ### UserCredential (Default)
-```
+```powershell
 Connect-PartnerCenter -ApplicationId <String> [-Credential <PSCredential>] [-Environment <EnvironmentName>]
  [-TokenCache <TokenCache>] [<CommonParameters>]
 ```
 
 ### AccessToken
-```
+```powershell
 Connect-PartnerCenter -AccessToken <String> -AccessTokenExpiresOn <DateTimeOffset> -ApplicationId <String>
  [-Environment <EnvironmentName>] -TenantId <String> [-TokenCache <TokenCache>] [<CommonParameters>]
 ```
 
 ### ServicePrincipal
-```
+```powershell
 Connect-PartnerCenter -Credential <PSCredential> [-Environment <EnvironmentName>] [-ServicePrincipal]
  -TenantId <String> [-TokenCache <TokenCache>] [<CommonParameters>]
 ```
