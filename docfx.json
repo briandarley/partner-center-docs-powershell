@@ -64,7 +64,7 @@
             "ms.devlang": "powershell",
             "feedback_system": "GitHub",
             "feedback_github_repo": "MicrosoftDocs/partner-center-docs-powershell",
-            "feedback_product_url": ""
+            "feedback_product_url": "https://github.com/Microsoft/Partner-Center-PowerShell/issues/new"
         },
         "dest": "partnercenterps"
     }
