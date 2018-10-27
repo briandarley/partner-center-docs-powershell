@@ -9,6 +9,7 @@ editor: ''
 ms.service: partner-center
 ms.workload: partner-center
 ms.tgt_pltfrm: na
+ms.custom: posh-docs-conceptual
 ms.topic: hero-article
 ms.date: 10/25/2018
 ms.author: iswillia
