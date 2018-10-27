@@ -3,7 +3,6 @@ Module Name: PartnerCenter
 Module Guid: 70cb9a9e-1491-403a-8a2f-63e1afe7dfee
 title:  Partner Center PowerShell
 description: Overview for the Partner Center PowerShell module.
-services: partner-center
 documentationcenter: ''
 author: iswillia
 manager: lesliep
