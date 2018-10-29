@@ -1,0 +1,71 @@
+{
+    "build": {
+        "content": [
+            {
+                "files": [
+                    "**/*.md",
+                    "**/*.yml"
+                ],
+                "src": "partnercenterps-1.5",
+                "version": "partnercenterps-1.5",
+                "exclude": [
+                    "docs-conceptual/**"
+                ],
+                "dest": "module/partnercenter"
+            },
+            {
+                "files": [
+                    "**/*.yml",
+                    "**/*.md"
+                ],
+                "src": "docs-conceptual/partnercenterps-1.5",
+                "version": "partnercenterps-1.5",
+                "dest": "partnercenter"
+            },
+            {
+                "files": [
+                    "toc.yml"
+                ],
+                "src": "pc-breadcrumb",
+                "version": "partnercenterps-1.5",
+                "dest": "partnercenter/bread"
+            }
+        ],
+        "versions": {
+            "partnercenterps-1.5": {
+                "dest": "partnercenterps-1.5"
+            }
+        },
+        "filemetadata": {
+            "ms.author": {
+                "partnercenterps-*/**/*.md": "iswillia"
+            },
+            "author": {
+                "partnercenterps-*/**/*.md": "iswillia"
+            },
+            "ms.manager": {
+                "partnercenterps-*/**/*.md": "lesliep"
+            },
+            "ms.service": {
+                "partnercenterps-*/**/*.md": "partner-center"
+            },
+            "ms.topic": {
+                "partnercenterps-*/**/*.md": "reference",
+                "docs-conceptual/**/*.md": "article"
+            },
+            "ms.date": {
+                "partnercenterps-*/**/*.md": "10/22/2018"
+            }
+        },
+        "globalMetadata": {
+            "showPowerShellPicker": "true",
+            "apiPlatform": "powershell",
+            "breadcrumb_path": "/powershell/partnercenter/bread/toc.json",
+            "ms.devlang": "powershell",
+            "feedback_system": "GitHub",
+            "feedback_github_repo": "MicrosoftDocs/partner-center-docs-powershell",
+            "feedback_product_url": "https://github.com/Microsoft/Partner-Center-PowerShell/issues/new"
+        },
+        "dest": "partnercenterps"
+    }
+}
