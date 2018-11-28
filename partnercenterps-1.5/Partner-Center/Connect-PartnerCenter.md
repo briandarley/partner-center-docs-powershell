@@ -1,9 +1,10 @@
 ---
+content_git_url: https://github.com/Microsoft/Partner-Center-PowerShell/blob/master/docs/help/Connect-PartnerCenter.md
 external help file: Microsoft.Store.PartnerCenter.PowerShell.dll-Help.xml
+Module Name: PartnerCenter
 online version:
-schema: 2.0.0
-content_git_url: https://github.com/Microsoft/Partner-Center-PowerShell/blob/master/docs/help/Connect-PartnerCenter.md 
 original_content_git_url: https://github.com/Microsoft/Partner-Center-PowerShell/blob/master/docs/help/Connect-PartnerCenter.md
+schema: 2.0.0
 ---
 
 # Connect-PartnerCenter
@@ -57,7 +58,7 @@ Connect to Partner Center using the specified application identifier during auth
 
 ```powershell
 PS C:\> $credential = Get-Credential
-PS C:\> Connect-PartnerCenter -Credential $credential -ServicePrincipal -TenantId '<AppId>'
+PS C:\> Connect-PartnerCenter -Credential $credential -ServicePrincipal -TenantId '<TenantId>'
 ```
 
 Connects to Partner Center using app only authentication. When prompted for credential specify the application identifier for the username and the application secret for the password.

@@ -1,9 +1,10 @@
 ---
+content_git_url: https://github.com/Microsoft/Partner-Center-PowerShell/blob/master/docs/help/Set-PartnerCustomerSubscription.md
 external help file: Microsoft.Store.PartnerCenter.PowerShell.dll-Help.xml
+Module Name: PartnerCenter
 online version:
-schema: 2.0.0
-content_git_url: https://github.com/Microsoft/Partner-Center-PowerShell/blob/master/docs/help/Set-PartnerCustomerSubscription.md 
 original_content_git_url: https://github.com/Microsoft/Partner-Center-PowerShell/blob/master/docs/help/Set-PartnerCustomerSubscription.md
+schema: 2.0.0
 ---
 
 # Set-PartnerCustomerSubscription
@@ -15,16 +16,16 @@ Updates the specified customer subscription.
 
 ### Customer
 ```powershell
-Set-PartnerCustomerSubscription [-AutoRenew <Boolean>] -CustomerId <String> [-FriendlyName <String>]
- [-Quantity <Int32>] [-Status <SubscriptionStatus>] -SubscriptionId <String> [-WhatIf] [-Confirm]
- [<CommonParameters>]
+Set-PartnerCustomerSubscription [-AutoRenew <Boolean>] [-BillingCycle <BillingCycleType>] -CustomerId <String>
+ [-FriendlyName <String>] [-Quantity <Int32>] [-Status <SubscriptionStatus>] -SubscriptionId <String> [-WhatIf]
+ [-Confirm] [<CommonParameters>]
 ```
 
 ### CustomerObject
 ```powershell
-Set-PartnerCustomerSubscription [-AutoRenew <Boolean>] -InputObject <PSCustomer> [-FriendlyName <String>]
- [-Quantity <Int32>] [-Status <SubscriptionStatus>] -SubscriptionId <String> [-WhatIf] [-Confirm]
- [<CommonParameters>]
+Set-PartnerCustomerSubscription [-AutoRenew <Boolean>] -InputObject <PSCustomer>
+ [-BillingCycle <BillingCycleType>] [-FriendlyName <String>] [-Quantity <Int32>] [-Status <SubscriptionStatus>]
+ -SubscriptionId <String> [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -46,6 +47,21 @@ A flag indiciating whether or not the subscription will auto renew.
 
 ```yaml
 Type: Boolean
+Parameter Sets: (All)
+Aliases:
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -BillingCycle
+The billing cycle for the subscription.
+
+```yaml
+Type: BillingCycleType
 Parameter Sets: (All)
 Aliases:
 

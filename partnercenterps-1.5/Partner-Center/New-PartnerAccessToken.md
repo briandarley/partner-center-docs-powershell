@@ -1,9 +1,10 @@
 ---
+content_git_url: https://github.com/Microsoft/Partner-Center-PowerShell/blob/master/docs/help/New-PartnerAccessToken.md
 external help file: Microsoft.Store.PartnerCenter.PowerShell.dll-Help.xml
+Module Name: PartnerCenter
 online version:
-schema: 2.0.0
-content_git_url: https://github.com/Microsoft/Partner-Center-PowerShell/blob/master/docs/help/New-PartnerAccessToken.md 
 original_content_git_url: https://github.com/Microsoft/Partner-Center-PowerShell/blob/master/docs/help/New-PartnerAccessToken.md
+schema: 2.0.0
 ---
 
 # New-PartnerAccessToken
@@ -20,9 +21,9 @@ New-PartnerAccessToken -ApplicationId <String> [-Credential <PSCredential>] [-En
 ```
 
 ### ServicePrincipal
-```powershell
-New-PartnerAccessToken -Credential <PSCredential> [-Environment <EnvironmentName>] -TenantId <String>
- [-TokenCache <TokenCache>] [<CommonParameters>]
+```
+New-PartnerAccessToken -Credential <PSCredential> [-Environment <EnvironmentName>] [-ServicePrincipal]
+ -TenantId <String> [-TokenCache <TokenCache>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -102,6 +103,21 @@ Aliases: EnvironmentName
 Accepted values: GlobalCloud, ChinaCloud, GermanCloud, USGovernment
 
 Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -ServicePrincipal
+A flag indicating that a service principal will be used to authenticate.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: ServicePrincipal
+Aliases:
+
+Required: True
 Position: Named
 Default value: None
 Accept pipeline input: False
