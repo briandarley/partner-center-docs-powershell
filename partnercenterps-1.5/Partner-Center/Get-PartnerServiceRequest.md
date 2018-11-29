@@ -1,9 +1,10 @@
 ---
+content_git_url: https://github.com/Microsoft/Partner-Center-PowerShell/blob/master/docs/help/Get-PartnerServiceRequest.md
 external help file: Microsoft.Store.PartnerCenter.PowerShell.dll-Help.xml
+Module Name: PartnerCenter
 online version:
-schema: 2.0.0
-content_git_url: https://github.com/Microsoft/Partner-Center-PowerShell/blob/master/docs/help/Get-PartnerServiceRequest.md 
 original_content_git_url: https://github.com/Microsoft/Partner-Center-PowerShell/blob/master/docs/help/Get-PartnerServiceRequest.md
+schema: 2.0.0
 ---
 
 # Get-PartnerServiceRequest
@@ -20,19 +21,19 @@ Get-PartnerServiceRequest [-Status <ServiceRequestStatus>] [-Severity <ServiceRe
 ```
 
 ### BySeverity
-```powershell
+```
 Get-PartnerServiceRequest [-Status <ServiceRequestStatus>] [-Severity <ServiceRequestSeverity>]
  [<CommonParameters>]
 ```
 
 ### ByCustomerId
-```powershell
+```
 Get-PartnerServiceRequest [-Status <ServiceRequestStatus>] [-Severity <ServiceRequestSeverity>]
  -CustomerId <String> [<CommonParameters>]
 ```
 
 ### ByRequestId
-```powershell
+```
 Get-PartnerServiceRequest -CustomerId <String> [-RequestId <String>] [<CommonParameters>]
 ```
 

@@ -1,9 +1,10 @@
 ---
+content_git_url: https://github.com/Microsoft/Partner-Center-PowerShell/blob/master/docs/help/Get-PartnerInvoiceLineItem.md
 external help file: Microsoft.Store.PartnerCenter.PowerShell.dll-Help.xml
+Module Name: PartnerCenter
 online version:
-schema: 2.0.0
-content_git_url: https://github.com/Microsoft/Partner-Center-PowerShell/blob/master/docs/help/Get-PartnerInvoiceLineItem.md 
 original_content_git_url: https://github.com/Microsoft/Partner-Center-PowerShell/blob/master/docs/help/Get-PartnerInvoiceLineItem.md
+schema: 2.0.0
 ---
 
 # Get-PartnerInvoiceLineItem

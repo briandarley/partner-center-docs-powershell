@@ -1,9 +1,10 @@
 ---
+content_git_url: https://github.com/Microsoft/Partner-Center-PowerShell/blob/master/docs/help/Set-PartnerOrganizationProfile.md
 external help file: Microsoft.Store.PartnerCenter.PowerShell.dll-Help.xml
+Module Name: PartnerCenter
 online version:
-schema: 2.0.0
-content_git_url: https://github.com/Microsoft/Partner-Center-PowerShell/blob/master/docs/help/Set-PartnerOrganizationProfile.md 
 original_content_git_url: https://github.com/Microsoft/Partner-Center-PowerShell/blob/master/docs/help/Set-PartnerOrganizationProfile.md
+schema: 2.0.0
 ---
 
 # Set-PartnerOrganizationProfile
