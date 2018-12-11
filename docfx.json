@@ -11,7 +11,7 @@
                 "exclude": [
                     "docs-conceptual/**"
                 ],
-                "dest": "module/partnercenter"
+                "dest": "module"
             },
             {
                 "files": [
