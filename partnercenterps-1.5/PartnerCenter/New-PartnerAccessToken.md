@@ -17,13 +17,14 @@ Generate a new access token that can be used to access Partner Center.
 ### UserCredential (Default)
 ```powershell
 New-PartnerAccessToken -ApplicationId <String> [-Consent] [-Environment <EnvironmentName>]
- [-RefreshToken <String>] -Resource <String> [-TenantId <String>] [<CommonParameters>]
+ [-RefreshToken <String>] [-Resource <String>] [-TenantId <String>] [<CommonParameters>]
 ```
 
 ### ServicePrincipal
 ```powershell
-New-PartnerAccessToken [-Consent] -Credential <PSCredential> [-Environment <EnvironmentName>]
- [-RefreshToken <String>] -Resource <String> [-TenantId <String>] [<CommonParameters>]
+New-PartnerAccessToken [-ApplicationId <String>] [-Consent] -Credential <PSCredential>
+ [-Environment <EnvironmentName>] [-RefreshToken <String>] [-Resource <String>] [-TenantId <String>]
+ [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -47,32 +48,12 @@ PS C:\> $credential = Get-Credential
 PS C:\> New-PartnerAccessToken -ApplicationId '<AAD-AppId>' -Credential $credential -TenantId '<TenantId>'
 ```
 
-Generates a new access token using user credentials for authentication.
-
-### Example 3
-```powershell
-PS C:\> $appId = '<AAD-AppId>'
-PS C:\> $appSecret = '<AAD-AppSecret>' | ConvertTo-SecureString -AsPlainText -Force
-PS C:\> $credential = New-Object System.Management.Automation.PSCredential $appId, $appSecret
-PS C:\> $token = New-PartnerAccessToken -Consent -Credential $credential -Resource https://api.partnercenter.microsoft.com
-```
-
-Performs the secure app model partner consent process. The `$token.RefreshToken` value should be stored in a secure location such as Azure Key vault. The Azure AD application used in this example much have `urn:ietf:wg:oauth:2.0:oob` configured as one of the reply URLs.
-
-### Example 4
-```powershell
-PS C:\> $appId = '<AAD-AppId>'
-PS C:\> $appSecret = '<AAD-AppSecret>' | ConvertTo-SecureString -AsPlainText -Force
-PS C:\> $credential = New-Object System.Management.Automation.PSCredential $appId, $appSecret
-PS C:\> New-PartnerAccessToken -RefreshToken '<Refresh-Token-Value>' -Resource https://api.partnercenter.microsoft.com -Credential $credential
-```
-
-Generates a new access token using the refresh token. The Azure AD application used in this example much have `urn:ietf:wg:oauth:2.0:oob` configured as one of the reply URLs.
+Generate a new access token using user credentials for authentication.
 
 ## PARAMETERS
 
 ### -ApplicationId
-The application identifier used to access Partner Center.
+The identifier for the Azure AD application.
 
 ```yaml
 Type: String
@@ -80,6 +61,18 @@ Parameter Sets: UserCredential
 Aliases:
 
 Required: True
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+```yaml
+Type: String
+Parameter Sets: ServicePrincipal
+Aliases:
+
+Required: False
 Position: Named
 Default value: None
 Accept pipeline input: False
@@ -155,7 +148,7 @@ Type: String
 Parameter Sets: (All)
 Aliases:
 
-Required: True
+Required: False
 Position: Named
 Default value: None
 Accept pipeline input: False
