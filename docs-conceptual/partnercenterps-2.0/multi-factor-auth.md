@@ -37,7 +37,7 @@ The first command gets the service principal credentials (application identifier
 The exchange step can be performed through a number of different methods. When using PowerShell it is recommended to use the [New-PartnerAccessToken](/powershell/module/partnercenter/new-partneraccesstoken) cmdlet. The following is an example of how to exchange a refresh token for an access token that can be used with the Partner Center API, SDK, or PowerShell module.
 
 ```powershell-interactive
-credential = Get-Credential
+$credential = Get-Credential
 $refreshToken = '<refreshToken>'
 
 New-PartnerAccessToken -ApplicationId 'xxxx-xxxx-xxxx-xxxx' -Credential $credential -RefreshToken $refreshToken -Scopes 'https://api.partnercenter.microsoft.com/user_impersonation' -ServicePrincipal -Tenant 'xxxx-xxxx-xxxx-xxxx'
