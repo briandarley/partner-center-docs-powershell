@@ -16,34 +16,34 @@ Connect to Partner Center with an authenticated account for use with partner cmd
 
 ### User (Default)
 ```powershell
-Connect-PartnerCenter [-Environment <EnvironmentName>] [-Tenant <String>] [-UseDeviceAuthentication] [-WhatIf]
- [-Confirm] [<CommonParameters>]
+Connect-PartnerCenter [-EnforceMFA] [-Environment <EnvironmentName>] [-Tenant <String>]
+ [-UseDeviceAuthentication] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### AccessToken
 ```powershell
-Connect-PartnerCenter -AccessToken <String> [-Environment <EnvironmentName>] [-Tenant <String>] [-WhatIf]
- [-Confirm] [<CommonParameters>]
+Connect-PartnerCenter -AccessToken <String> [-EnforceMFA] [-Environment <EnvironmentName>] [-Tenant <String>]
+ [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### RefreshToken
 ```powershell
 Connect-PartnerCenter -ApplicationId <String> [-CertificateThumbprint <String>] [-Credential <PSCredential>]
- [-Environment <EnvironmentName>] -RefreshToken <String> [-Tenant <String>] [-WhatIf] [-Confirm]
+ [-EnforceMFA] [-Environment <EnvironmentName>] -RefreshToken <String> [-Tenant <String>] [-WhatIf] [-Confirm]
  [<CommonParameters>]
 ```
 
 ### ServicePrincipalCertificate
 ```powershell
-Connect-PartnerCenter -ApplicationId <String> [-CertificateThumbprint <String>]
+Connect-PartnerCenter -ApplicationId <String> [-CertificateThumbprint <String>] [-EnforceMFA]
  [-Environment <EnvironmentName>] [-ServicePrincipal] -Tenant <String> [-WhatIf] [-Confirm]
  [<CommonParameters>]
 ```
 
 ### ServicePrincipal
 ```powershell
-Connect-PartnerCenter -Credential <PSCredential> [-Environment <EnvironmentName>] [-ServicePrincipal]
- -Tenant <String> [-WhatIf] [-Confirm] [<CommonParameters>]
+Connect-PartnerCenter -Credential <PSCredential> [-EnforceMFA] [-Environment <EnvironmentName>]
+ [-ServicePrincipal] -Tenant <String> [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -68,7 +68,7 @@ PS C:\> Connect-PartnerCenter -Credential $credential -Tenant 'xxxx-xxxx-xxxx-xx
 
 The first command gets the service principal credentials (application identifier and service principal secret), and then stores them in the $credential variable. The second command connects to Partner Center using the service principal credentials stored in $credential for the specified Tenant. The ServicePrincipal switch parameter indicates that the account authenticates as a service principal.
 
-### Example 3: Connect to Partner using a refresh token
+### Example 3: Connect to Partner using an access token
 
 ```powershell
 PS C:\> $credential = Get-Credential
@@ -147,6 +147,21 @@ Parameter Sets: ServicePrincipal
 Aliases:
 
 Required: True
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -EnforceMFA
+A flag indicating whether or not multi-factor authentication is enforced. The is only configurable while the Partner Center API is not requiring multi-factor authentication.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases:
+
+Required: False
 Position: Named
 Default value: None
 Accept pipeline input: False
