@@ -2,7 +2,7 @@
 title: Release notes for Partner Center PowerShell
 description: Discover what has changed with Partner Center PowerShell with each release.
 ms.topic: conceptual
-ms.date: 09/14/2019
+ms.date: 09/18/2019
 ---
 
 # Release notes
@@ -12,6 +12,8 @@ ms.date: 09/14/2019
 * Authentication
   * Address issue [#156](https://github.com/microsoft/Partner-Center-PowerShell/issues/156) where the refresh token was not being returned if it had not been previously used by the module during an interactive authentication attempt
   * After successfully authenticating the module will attempt to get country and locale based on the partner organization profile
+* Security
+  * Adding the [Test-PartnerSecurityRequirement](https://docs.microsoft.com/powershell/module/partnercenter/Test-PartnerSecurityRequirement) command to help validate that the authenticating account was challenged for multi-factor authentication
 
 ## 2.0.1909.2 - September 2019
 
