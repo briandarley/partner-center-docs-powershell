@@ -165,7 +165,8 @@
       "ms.author": "iswillia",
       "manager": "jasonh",
       "ms.devlang": "powershell",
-      "ms.prod": "partner-center",
+      "ms.service": "partner-dashboard",
+      "ms.subservice": "partnercenter-sdk",
       "showPowerShellPicker": "true",
       "uhfHeaderId": "MSDocsHeader-Partner-Center",
       "searchScope": ["Partner Center", "Partner Center developer resources","Partner Center PowerShell"] 
