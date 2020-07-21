@@ -160,7 +160,7 @@
       "breadcrumb_path": "/powershell/partnercenter/breadcrumb/toc.json",
       "extendBreadcrumb": true,
       "feedback_github_repo": "microsoftdocs/partner-center-docs-powershell",
-      "feedback_system": "GitHub",
+      "feedback_system": "None",
       "feedback_product_url": "https://github.com/microsoft/partner-center-powerShell/issues/new",
       "ms.author": "iswillia",
       "manager": "jasonh",
