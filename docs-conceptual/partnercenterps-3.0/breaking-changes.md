@@ -30,7 +30,7 @@ ms.date: 12/05/2019
     Microsoft Azure 9681cddd-4b96-4d67-96e5-399a827d5375 active 0d066578-66b7-40f6-afad-6e179df3ad80
     ```
 
-  * [New-PartnerAzureSubscription](https://docs.microsoft.com/powershell/module/partnercenter/Neew-PartnerAzureSubscription) the `CustomerName` parameter will be replaced by the `CustomerId` parameter starting wth version 3.0.1
+  * [New-PartnerAzureSubscription](https://docs.microsoft.com/powershell/module/partnercenter/New-PartnerAzureSubscription) the `CustomerName` parameter will be replaced by the `CustomerId` parameter starting wth version 3.0.1
 
     ```powershell
     # Old
@@ -52,6 +52,6 @@ ms.date: 12/05/2019
   * Replaced the `Consent` parameter with the `UseAuthorizationCode` parameter for the `New-PartnerAccessToken` cmdlet
   * Replaced the `Resource` parameter with the `Scopes` parameter for the `Connect-PartnerCenter` and `New-PartnerAccessToken` cmdlets
   * ServicePrincipal parameter is now required when using a confidential client with the `Connect-PartnerCenter` and `New-PartnerAccessToken` cmdlets
-  * When using the [New-PartnerAccessToken](/powershell/module/partnercenter/new-partneraccesstoken) command and the `UseAuthorizationCode` parameter you will be prompted to authentication interactively using the authorization code flow. The redirect URI value will generated dynamically. This generation process will attempt to find a port between 8400 and 8999 that is not in use. Once an available port has been found, the redirect URL value will be constructed (e.g. http://localhost:8400). So, it is important that you have configured the redirect URI value for your Azure Active Directory application accordingly.
+  * When using the [New-PartnerAccessToken](/powershell/module/partnercenter/new-partneraccesstoken) command and the `UseAuthorizationCode` parameter you will be prompted to authentication interactively using the authorization code flow. The redirect URI value will generated dynamically. This generation process will attempt to find a port between 8400 and 8999 that is not in use. Once an available port has been found, the redirect URL value will be constructed (e.g. `http://localhost:8400`). So, it is important that you have configured the redirect URI value for your Azure Active Directory application accordingly.
 * Module
   * The `PartnerCenter` module now supports PowerShell 5.1 and PowerShell, as a result the `PartnerCenter.NetCore` module will be retired

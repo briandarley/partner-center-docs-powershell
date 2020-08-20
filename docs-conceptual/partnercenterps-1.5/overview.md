@@ -12,10 +12,16 @@ The Partner Center PowerShell module contains a set of PowerShell commands for a
 
 If you're unfamiliar with PowerShell, an introduction to PowerShell may be helpful.
 
-* [Installing PowerShell](/powershell/scripting/setup/installing-windows-powershell)
-* [Scripting with PowerShell](/powershell/scripting/powershell-scripting)
+* [Install PowerShell](/powershell/scripting/install/installing-powershell)
+* [Scripting with PowerShell](/powershell/scripting/learn/ps101/10-script-modules)
+* [PowerShell Basics: Getting started with PowerShell](/powershell/scripting/learn/ps101/01-getting-started)
 
-You can also watch this video:
-[PowerShell Basics: (Part 1) Getting Started with PowerShell](https://channel9.msdn.com/Blogs/Taste-of-Premier/PowerShellBasicsPart1).
+## Build your skills with Microsoft Learn
 
-Or attend the Microsoft Virtual Academy's [Getting Started with PowerShell Jumpstart](https://mva.microsoft.com/liveevents/powershell-jumpstart).
+* [Automate Azure tasks using scripts with PowerShell](/learn/modules/automate-azure-tasks-with-powershell/)
+* [More interactive learning...](/learn/browse/?term=powershell)
+
+## Other Microsoft PowerShell modules
+
+* [Azure](/powershell/azure)
+* [Azure Active Directory](/powershell/module/az.resources/)

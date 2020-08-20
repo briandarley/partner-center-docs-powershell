@@ -20,8 +20,8 @@ See the [release notes](release-notes.md) for more information about the latest 
 Read the [Get Started with Partner Center PowerShell](get-started.md) article to learn the Partner Center PowerShell basics. If you are not familiar with PowerShell, an introduction might be helpful:
 
 * [Install PowerShell](/powershell/scripting/install/installing-powershell)
-* [Scripting with PowerShell](/powershell/scripting/powershell-scripting)
-* [PowerShell Basics: (Part 1) Getting Started with PowerShell](https://channel9.msdn.com/Blogs/Taste-of-Premier/PowerShellBasicsPart1)
+* [Scripting with PowerShell](/powershell/scripting/learn/ps101/10-script-modules)
+* [PowerShell Basics: Getting started with PowerShell](/powershell/scripting/learn/ps101/01-getting-started)
 
 ## Build your skills with Microsoft Learn
 
@@ -31,4 +31,4 @@ Read the [Get Started with Partner Center PowerShell](get-started.md) article to
 ## Other Microsoft PowerShell modules
 
 * [Azure](/powershell/azure)
-* [Azure Active Directory](/powershell/azure/active-directory/)
+* [Azure Active Directory](/powershell/module/az.resources/)
