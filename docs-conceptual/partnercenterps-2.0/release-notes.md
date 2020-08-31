@@ -10,8 +10,8 @@ ms.date: 11/26/2019
 ## 2.0.1911.5 - November 2019
 
 * Security
-  * Optimized the [Get-PartnerUser](https://docs.microsoft.com/powershell/module/partnercenter/Get-PartnerProductUpgrade) command
-  * Optimized the [Get-PartnerUserSignActivity](https://docs.microsoft.com/powershell/module/partnercenter/Get-PartnerUserSignActivity) command
+  * Optimized the Get-PartnerUser command
+  * Optimized the Get-PartnerUserSignActivity command
 
 ## 2.0.1911.4 - November 2019
 
@@ -46,12 +46,12 @@ ms.date: 11/26/2019
   * [One Time Invoice Line Item](https://github.com/microsoft/Partner-Center-PowerShell/blob/master/src/PowerShell/Models/Invoices/PSOneTimeInvoiceLineItem.cs)
     * Added the *BillableQuantity*, *MeterDescription*, *PCToBCExchangeRateDate*, *PCToBCExchangeRate*, *PriceAdjustmentDescription*, and *PricingCurrency* properties
 * Product Upgrades
-  * Added the [Get-PartnerProductUpgrade](https://docs.microsoft.com/powershell/module/partnercenter/Get-PartnerProductUpgrade) command to get information on product upgrades for the specified customer
+  * Added the Get-PartnerProductUpgrade command to get information on product upgrades for the specified customer
   * Added the [Get-PartnerProductUpgradeEligibility](https://docs.microsoft.com/powershell/module/partnercenter/Get-PartnerProductUpgrade) command to determine if the specified customer has a product eligible for an upgrade
   * Added the [Get-PartnerProductUpgradeStatus](https://docs.microsoft.com/powershell/module/partnercenter/Get-PartnerProductUpgradeStatus) command to get the status for product upgrades for the specified customer
   * Added the [New-PartnerProductUpgrade](https://docs.microsoft.com/powershell/module/partnercenter/New-PartnerProductUpgrade) command to perform an upgrade for the specified customer
 * Security
-  * Added the [Get-PartnerUser](https://docs.microsoft.com/powershell/module/partnercenter/Get-PartnerProductUpgrade) command to get partner user accounts
+  * Added the [Get-PartnerUser](https://docs.microsoft.com/powershell/module/partnercenter/Get-PartnerUser) command to get partner user accounts
     * Added the [Get-PartnerUserSignActivity](https://docs.microsoft.com/powershell/module/partnercenter/Get-PartnerUserSignActivity) command to get sign-in activities for the specified user account
 * Subscriptions
   * Added the [Get-PartnerCustomerAzurePlanEntitlement](https://docs.microsoft.com/powershell/module/partnercenter/Get-PartnerCustomerAzurePlanEntitlement) command to get entitlement information for an Azure Plan
@@ -87,7 +87,7 @@ ms.date: 11/26/2019
 ## 2.0.1909.1 - September 2019
 
 * Agreements
-  * Added the [Get-PartnerAgreementTemplate](/powershell/module/partnercenter/Get-PartnerAgreementTemplate) command to provide access to the links download or view the Microsoft Customer Agreement
+  * Added the Get-PartnerAgreementTemplate command to provide access to the links download or view the Microsoft Customer Agreement
   * Added the ability to request the Microsoft Customer Agreement template metadata
   * The *AgreementType* enumeration has been removed, and where it was used the type has changed to a *string*
 * Authentication
@@ -98,4 +98,4 @@ ms.date: 11/26/2019
 * Module
   * The `PartnerCenter` module now supports PowerShell 5.1 and PowerShell, as a result the `PartnerCenter.NetCore` module will be retired
 * Subscriptions
-  * Added the [New-PartnerCustomerSubscriptionActivation](/powershell/module/partnercenter/Get-PartnerCustomerSubscriptionActivation) command to make it where third-party subscriptions can be activated in the integration sandbox
+  * Added the New-PartnerCustomerSubscriptionActivation command to make it where third-party subscriptions can be activated in the integration sandbox

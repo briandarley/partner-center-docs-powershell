@@ -26,11 +26,12 @@
       },
       {
         "files": [
-          "**/*.md"
+          "**/*.yml"
         ],
         "src": "partnercenterps-1.5",
         "version": "partnercenterps-1.5",
         "exclude": [
+          "toc.yml",
           "docs-conceptual/**"
         ],
         "dest": "module"
@@ -62,11 +63,12 @@
       },
       {
         "files": [
-          "**/*.md"
+          "**/*.yml"
         ],
         "src": "partnercenterps-2.0",
         "version": "partnercenterps-2.0",
         "exclude": [
+          "toc.yml",
           "docs-conceptual/**"
         ],
         "dest": "module"
@@ -98,11 +100,12 @@
       },
       {
         "files": [
-          "**/*.md"
+          "**/*.yml"
         ],
         "src": "partnercenterps-3.0",
         "version": "partnercenterps-3.0",
         "exclude": [
+          "toc.yml",
           "docs-conceptual/**"
         ],
         "dest": "module"
@@ -142,16 +145,16 @@
     },
     "filemetadata": {
       "enable_powershell_try_it": {
-        "partnercenterps-*/**/*.md": false
+        "partnercenterps-*/**/*.yml": false
       },
       "ms.date": {
-        "partnercenterps-1.5/**/*.md": "12/19/2019",
-        "partnercenterps-2.0/**/*.md": "01/10/2020",
-        "partnercenterps-3.0/**/*.md": "01/29/2020"
+        "partnercenterps-1.5/**/*.yml": "12/19/2019",
+        "partnercenterps-2.0/**/*.yml": "01/10/2020",
+        "partnercenterps-3.0/**/*.yml": "01/29/2020"
       },
       "ms.topic": {
         "docs-conceptual/**/*.md": "article",
-        "partnercenterps-*/**/*.md": "reference"
+        "partnercenterps-*/**/*.yml": "reference"
       }
     },
     "globalMetadata": {
