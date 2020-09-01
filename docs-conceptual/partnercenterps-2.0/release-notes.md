@@ -11,7 +11,7 @@ ms.date: 11/26/2019
 
 * Security
   * Optimized the Get-PartnerUser command
-  * Optimized the Get-PartnerUserSignActivity command
+  * Optimized the Get-PartnerUserSignInActivity command
 
 ## 2.0.1911.4 - November 2019
 
@@ -20,8 +20,8 @@ ms.date: 11/26/2019
   * Added the [Get-PartnerAzureBillingProfile](https://docs.microsoft.com/powershell/module/partnercenter/get-partnerazurebillingprofile) to get billing profiles for specified billing account
   * Added the [New-PartnerAzureSubscription](https://docs.microsoft.com/powershell/module/partnercenter/new-partnerazuresubscription) to create a new Azure subscription for Microsoft Partner Agreement billing account.
 * Security
-  * Updated the [Get-PartnerUser](https://docs.microsoft.com/powershell/module/partnercenter/Get-PartnerProductUpgrade) command to ensure all user accounts are returned
-  * Updated the [Get-PartnerUserSignActivity](https://docs.microsoft.com/powershell/module/partnercenter/Get-PartnerUserSignActivity) command to ensure all user sign-in activities are returned
+  * Updated the [Get-PartnerUser](https://docs.microsoft.com/powershell/module/partnercenter/Get-PartnerUser) command to ensure all user accounts are returned
+  * Updated the [Get-PartnerUserSignInActivity](https://docs.microsoft.com/powershell/module/partnercenter/Get-PartnerUserSignInActivity) command to ensure all user sign-in activities are returned
 
 ## 2.0.1911.3 - November 2019
 
@@ -47,12 +47,12 @@ ms.date: 11/26/2019
     * Added the *BillableQuantity*, *MeterDescription*, *PCToBCExchangeRateDate*, *PCToBCExchangeRate*, *PriceAdjustmentDescription*, and *PricingCurrency* properties
 * Product Upgrades
   * Added the Get-PartnerProductUpgrade command to get information on product upgrades for the specified customer
-  * Added the [Get-PartnerProductUpgradeEligibility](https://docs.microsoft.com/powershell/module/partnercenter/Get-PartnerProductUpgrade) command to determine if the specified customer has a product eligible for an upgrade
+  * Added the [Get-PartnerProductUpgradeEligibility](https://docs.microsoft.com/powershell/module/partnercenter/Get-PartnerProductUpgradeEligibility) command to determine if the specified customer has a product eligible for an upgrade
   * Added the [Get-PartnerProductUpgradeStatus](https://docs.microsoft.com/powershell/module/partnercenter/Get-PartnerProductUpgradeStatus) command to get the status for product upgrades for the specified customer
   * Added the [New-PartnerProductUpgrade](https://docs.microsoft.com/powershell/module/partnercenter/New-PartnerProductUpgrade) command to perform an upgrade for the specified customer
 * Security
   * Added the [Get-PartnerUser](https://docs.microsoft.com/powershell/module/partnercenter/Get-PartnerUser) command to get partner user accounts
-    * Added the [Get-PartnerUserSignActivity](https://docs.microsoft.com/powershell/module/partnercenter/Get-PartnerUserSignActivity) command to get sign-in activities for the specified user account
+    * Added the [Get-PartnerUserSignInActivity](https://docs.microsoft.com/powershell/module/partnercenter/Get-PartnerUserSignInActivity) command to get sign-in activities for the specified user account
 * Subscriptions
   * Added the [Get-PartnerCustomerAzurePlanEntitlement](https://docs.microsoft.com/powershell/module/partnercenter/Get-PartnerCustomerAzurePlanEntitlement) command to get entitlement information for an Azure Plan
 * Usage
