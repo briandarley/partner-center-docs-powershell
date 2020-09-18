@@ -13,7 +13,6 @@
           "toc.yml"
         ],
         "src": "breadcrumb",
-        "version": "partnercenterps-1.5",
         "dest": "partnercenter/breadcrumb"
       },
       {
@@ -49,14 +48,6 @@
         "files": [
           "toc.yml"
         ],
-        "src": "breadcrumb",
-        "version": "partnercenterps-2.0",
-        "dest": "partnercenter/breadcrumb"
-      },
-      {
-        "files": [
-          "toc.yml"
-        ],
         "src": "partnercenterps-2.0",
         "version": "partnercenterps-2.0",
         "dest": "module/partnercenter"
@@ -81,14 +72,6 @@
         "src": "docs-conceptual/partnercenterps-2.0",
         "version": "partnercenterps-2.0",
         "dest": "partnercenter"
-      },      
-      {
-        "files": [
-          "toc.yml"
-        ],
-        "src": "breadcrumb",
-        "version": "partnercenterps-3.0",
-        "dest": "partnercenter/breadcrumb"
       },
       {
         "files": [
@@ -141,7 +124,7 @@
       },
       "partnercenterps-3.0": {
         "dest": "partnercenterps-3.0"
-      } 
+      }
     },
     "filemetadata": {
       "enable_powershell_try_it": {
@@ -172,7 +155,7 @@
       "ms.subservice": "partnercenter-sdk",
       "showPowerShellPicker": "true",
       "uhfHeaderId": "MSDocsHeader-Partner-Center",
-      "searchScope": ["Partner Center", "Partner Center developer resources","Partner Center PowerShell"] 
+      "searchScope": [ "Partner Center", "Partner Center developer resources", "Partner Center PowerShell" ]
     },
     "dest": "partnercenterps",
     "markdownEngineName": "markdig"
