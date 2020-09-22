@@ -21,7 +21,7 @@
           "toc.yml"
         ],
         "src": "partnercenterps-1.5",
-        "group": "partnercenterps-1.5",
+        "version": "partnercenterps-1.5",
         "dest": "module/partnercenter"
       },
       {
@@ -29,7 +29,7 @@
           "**/*.yml"
         ],
         "src": "partnercenterps-1.5",
-        "group": "partnercenterps-1.5",
+        "version": "partnercenterps-1.5",
         "exclude": [
           "toc.yml",
           "docs-conceptual/**"
@@ -42,7 +42,7 @@
           "**/*.md"
         ],
         "src": "docs-conceptual/partnercenterps-1.5",
-        "group": "partnercenterps-1.5",
+        "version": "partnercenterps-1.5",
         "dest": "partnercenter"
       },
       {
@@ -50,7 +50,7 @@
           "toc.yml"
         ],
         "src": "partnercenterps-2.0",
-        "group": "partnercenterps-2.0",
+        "version": "partnercenterps-2.0",
         "dest": "module/partnercenter"
       },
       {
@@ -58,7 +58,7 @@
           "**/*.yml"
         ],
         "src": "partnercenterps-2.0",
-        "group": "partnercenterps-2.0",
+        "version": "partnercenterps-2.0",
         "exclude": [
           "toc.yml",
           "docs-conceptual/**"
@@ -71,7 +71,7 @@
           "**/*.md"
         ],
         "src": "docs-conceptual/partnercenterps-2.0",
-        "group": "partnercenterps-2.0",
+        "version": "partnercenterps-2.0",
         "dest": "partnercenter"
       },
       {
@@ -79,7 +79,7 @@
           "toc.yml"
         ],
         "src": "partnercenterps-3.0",
-        "group": "partnercenterps-3.0",
+        "version": "partnercenterps-3.0",
         "dest": "module/partnercenter"
       },
       {
@@ -87,7 +87,7 @@
           "**/*.yml"
         ],
         "src": "partnercenterps-3.0",
-        "group": "partnercenterps-3.0",
+        "version": "partnercenterps-3.0",
         "exclude": [
           "toc.yml",
           "docs-conceptual/**"
@@ -100,7 +100,7 @@
           "**/*.md"
         ],
         "src": "docs-conceptual/partnercenterps-3.0",
-        "group": "partnercenterps-3.0",
+        "version": "partnercenterps-3.0",
         "dest": "partnercenter"
       }
     ],
@@ -116,18 +116,20 @@
         ]
       }
     ],
+    "versions": {
+      "partnercenterps-1.5": {
+        "dest": "partnercenterps-1.5"
+      },
+      "partnercenterps-2.0": {
+        "dest": "partnercenterps-2.0"
+      },
+      "partnercenterps-3.0": {
+        "dest": "partnercenterps-3.0"
+      }
+    },
     "groups": {
       "partnercenterps-all": {
         "moniker_range": ">=partnercenterps-1.5"
-      },
-      "partnercenterps-1.5": {
-        "moniker_range": "partnercenterps-1.5"
-      },
-      "partnercenterps-2.0": {
-        "moniker_range": "partnercenterps-2.0"
-      },
-      "partnercenterps-3.0": {
-        "moniker_range": "partnercenterps-3.0"
       }
     },
     "filemetadata": {
