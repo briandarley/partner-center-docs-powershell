@@ -13,7 +13,6 @@
           "toc.yml"
         ],
         "src": "breadcrumb",
-        "group": "partnercenterps-all",
         "dest": "partnercenter/breadcrumb"
       },
       {
@@ -125,11 +124,6 @@
       },
       "partnercenterps-3.0": {
         "dest": "partnercenterps-3.0"
-      }
-    },
-    "groups": {
-      "partnercenterps-all": {
-        "moniker_range": ">=partnercenterps-1.5"
       }
     },
     "filemetadata": {
