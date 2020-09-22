@@ -118,7 +118,7 @@
     ],
     "groups": {
       "partnercenterps-all": {
-        "moniker_range": ">= partnercenterps-1.5"
+        "moniker_range": ">=partnercenterps-1.5"
       },
       "partnercenterps-1.5": {
         "moniker_range": "partnercenterps-1.5"
