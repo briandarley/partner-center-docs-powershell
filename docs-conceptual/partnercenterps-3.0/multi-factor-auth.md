@@ -116,7 +116,7 @@ Import-PSSession $session
 ```
 
 > [!IMPORTANT]
-> The application identifier *a0c73c16-a7e3-4564-9a95-2bdf47383716* is for the Exchange Online PowerShell Azure Active Direcotry application. When requesting an access, or refresh, token for use with Exchange Online PowerShell you will need to use this value. 
+> The application identifier *a0c73c16-a7e3-4564-9a95-2bdf47383716* is for the Exchange Online PowerShell Azure Active Directory application. When requesting an access, or refresh, token for use with Exchange Online PowerShell you will need to use this value. 
 
 #### MS Online
 
